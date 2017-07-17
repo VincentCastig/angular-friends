@@ -374,9 +374,9 @@ See https://docs.angularjs.org/api/ng/filter/orderBy for more details.
   <select class="input-medium" ng-model="sortProp">
       <option value="name">Name</option>
       <option value="friend_count">#Friends</option>
-      <option value="location.city">City</option>
-      <option value="location.state">State</option>
-      <option value="location.country">Country</option>
+      <option value="city">City</option>
+      <option value="state">State</option>
+      <option value="country">Country</option>
   </select>
 
   <select class="input-medium" ng-model="sortDirection">
